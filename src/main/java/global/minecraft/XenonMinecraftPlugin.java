@@ -5,11 +5,11 @@ import org.bukkit.plugin.java.JavaPlugin;
 public class XenonMinecraftPlugin extends JavaPlugin {
     @Override
     public void onEnable() {
-        var server = getServer();
+        CustomRecipes.registerRecipes(this);
     }
 
     @Override
     public void onDisable() {
-
+        CustomRecipes.unregisterRecipes(this);
     }
 }
