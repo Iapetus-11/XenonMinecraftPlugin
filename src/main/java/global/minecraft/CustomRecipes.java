@@ -13,8 +13,8 @@ public class CustomRecipes {
                 new NamespacedKey(plugin, "smelt_rotten_flesh"),
                 new ItemStack(Material.LEATHER),
                 Material.ROTTEN_FLESH,
-                0.0f,
-                15);
+                0.25f,
+                20);
 
         server.addRecipe(smeltRottenFlesh);
     }
