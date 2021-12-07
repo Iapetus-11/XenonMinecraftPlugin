@@ -1,0 +1,5 @@
+name: XenonMinecraftPlugin
+version: 0.1.0
+main: global.minecraft.XenonMinecraftPlugin
+authors: [ Iapetus11 ]
+description: A plugin with a bunch of miscellaneous features for Xenon
