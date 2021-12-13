@@ -15,9 +15,12 @@ public class ShrugCommand implements CommandExecutor {
         }
 
         StringBuilder message = new StringBuilder();
-        for (String arg : args) message.append(arg);
+        for (String arg : args) {
+            message.append(arg);
+            message.append(" ");
+        }
 
-        ((Player) sender).chat(message.toString() + "¯\\_(ツ)_/¯\n");
+        ((Player) sender).chat(message + "¯\\\\_(ツ)_/¯\n");
 
         return true;
     }
