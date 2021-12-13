@@ -6,6 +6,8 @@ public class XenonMinecraftPlugin extends JavaPlugin {
     @Override
     public void onEnable() {
         CustomRecipes.registerRecipes(this);
+
+        getCommand("shrug").setExecutor(new ShrugCommand());
     }
 
     @Override
