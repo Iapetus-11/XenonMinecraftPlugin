@@ -1,4 +1,4 @@
-package global.minecraft;
+package me.iapetus11;
 
 import org.bukkit.plugin.java.JavaPlugin;
 
