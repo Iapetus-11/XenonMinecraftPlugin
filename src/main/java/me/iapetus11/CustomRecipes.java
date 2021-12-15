@@ -31,7 +31,7 @@ public class CustomRecipes {
         server.addRecipe(craftWoolToString);
 
         for (Material woodenSlabType : woodenSlabMaterials) {
-            var woodPlanksOfSlabsType = Material.getMaterial(woodenSlabType.name().replaceAll("_SLABS", "_PLANKS"));
+            var woodPlanksOfSlabsType = Material.getMaterial(woodenSlabType.name().replaceAll("_SLAB", "_PLANKS"));
 
             var recipeKey = "craft_" + woodenSlabType.name().toLowerCase() + "_to_planks";
             var recipe = new ShapedRecipe(new NamespacedKey(plugin, recipeKey), new ItemStack(woodPlanksOfSlabsType));
