@@ -14,7 +14,7 @@ public class ShrugCommand implements CommandExecutor {
             return true;
         }
 
-        StringBuilder message = new StringBuilder();
+        var message = new StringBuilder();
         for (String arg : args) {
             message.append(arg);
             message.append(" ");
